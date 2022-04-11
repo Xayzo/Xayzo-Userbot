@@ -119,14 +119,12 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/vckyou/Geez-UserBot")
+    "https://github.com/Xayzo/Xayzo-UserBot")
 
 # Owner Only
 DEVS = (
-    874946835,
-    1488093812,
-    1826643972,
-    1977874449,
+    1780335957,
+    1757169682,
 )
 # sudo
 SUDO_USERS = {int(x) for x in os.environ.get("SUDO_USERS", "").split()}
